@@ -1,0 +1,166 @@
+\begin{thebibliography}{29}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Kaplan et~al.(2017)]{Kaplan2017BeatingAW}
+R.~Kaplan et~al.
+\newblock Beating atari with natural language guided reinforcement learning.
+\newblock \emph{ArXiv}, abs/1704.05539, 2017.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:6022828}.
+
+\bibitem[Goyal et~al.(2019)]{Goyal2019UsingNL}
+P.~Goyal et~al.
+\newblock Using natural language for reward shaping in reinforcement learning.
+\newblock In \emph{International Joint Conference on Artificial Intelligence}, 2019.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:70350059}.
+
+\bibitem[Goyal et~al.(2020)]{Goyal2020PixL2RGR}
+P.~Goyal et~al.
+\newblock Pixl2r: Guiding reinforcement learning using natural language by mapping pixels to rewards.
+\newblock In \emph{Language in Reinforcement Learning Workshop at ICML 2020}, 2020.
+
+\bibitem[Du et~al.(2023)Du, Watkins, Wang, Colas, Darrell, Abbeel, Gupta, and Andreas]{du2023guiding}
+Y.~Du, O.~Watkins, Z.~Wang, C.~Colas, T.~Darrell, P.~Abbeel, A.~Gupta, and J.~Andreas.
+\newblock Guiding pretraining in reinforcement learning with large language models.
+\newblock In \emph{International Conference on Machine Learning}, 2023.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:256846700}.
+
+\bibitem[Wang et~al.(2018)Wang, Huang, Celikyilmaz, Gao, Shen, fang Wang, Wang, and Zhang]{Wang2018ReinforcedCM}
+X.~E. Wang, Q.~Huang, A.~Celikyilmaz, J.~Gao, D.~Shen, Y.~fang Wang, W.~Y. Wang, and L.~Zhang.
+\newblock Reinforced cross-modal matching and self-supervised imitation learning for vision-language navigation.
+\newblock \emph{2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, pages 6622--6631, 2018.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:53735892}.
+
+\bibitem[Shridhar et~al.(2022)]{Shridhar2021CLIPortWA}
+M.~Shridhar et~al.
+\newblock Cliport: What and where pathways for robotic manipulation.
+\newblock In \emph{Conference on robot learning}, pages 894--906. PMLR, 2022.
+
+\bibitem[Mahmoudieh et~al.(2022)]{Mahmoudieh2022ZeroShotRS}
+P.~Mahmoudieh et~al.
+\newblock Zero-shot reward specification via grounded natural language.
+\newblock In \emph{International Conference on Machine Learning}, 2022.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:250340669}.
+
+\bibitem[Clark(2016)]{openai_faulty_rewards2016}
+J.~Clark.
+\newblock Faulty reward functions in the wild.
+\newblock \url{https://openai.com/index/faulty-reward-functions/}, 2016.
+\newblock Accessed: 2024-08-06.
+
+\bibitem[Wang et~al.(2023)Wang, Cai, Chen, Liu, Ma, and Liang]{Wang2023DescribeEP}
+Z.~Wang, S.~Cai, G.~Chen, A.~Liu, X.~Ma, and Y.~Liang.
+\newblock Describe, explain, plan and select: Interactive planning with llms enables open-world multi-task agents.
+\newblock In \emph{Neural Information Processing Systems}, 2023.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:268042457}.
+
+\bibitem[Ghosal et~al.(2022)Ghosal, Zurek, Brown, and Dragan]{Ghosal2022TheEO}
+G.~R. Ghosal, M.~Zurek, D.~S. Brown, and A.~D. Dragan.
+\newblock The effect of modeling human rationality level on learning rewards from multiple feedback types.
+\newblock In \emph{AAAI Conference on Artificial Intelligence}, 2022.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:251740992}.
+
+\bibitem[Fu et~al.(2024)Fu, Zhang, Wu, Xu, and Boulet]{fufurl2024}
+Y.~Fu, H.~Zhang, D.~Wu, W.~Xu, and B.~Boulet.
+\newblock Furl: Visual-language models as fuzzy rewards for reinforcement learning.
+\newblock In \emph{Forty-first International Conference on Machine Learning}, 2024.
+
+\bibitem[Abel et~al.(2021)Abel, Dabney, Harutyunyan, Ho, Littman, Precup, and Singh]{Abel2021OnTE}
+D.~Abel, W.~Dabney, A.~Harutyunyan, M.~K. Ho, M.~Littman, D.~Precup, and S.~Singh.
+\newblock On the expressivity of markov reward.
+\newblock \emph{Advances in Neural Information Processing Systems}, 34:\penalty0 7799--7812, 2021.
+
+\bibitem[Icarte et~al.(2018)Icarte, Klassen, Valenzano, and McIlraith]{Icarte2018UsingRM}
+R.~T. Icarte, T.~Q. Klassen, R.~A. Valenzano, and S.~A. McIlraith.
+\newblock Using reward machines for high-level task specification and decomposition in reinforcement learning.
+\newblock In \emph{International Conference on Machine Learning}, 2018.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:51868784}.
+
+\bibitem[Corazza et~al.(2022)]{Corazza2022ReinforcementLW}
+J.~Corazza et~al.
+\newblock Reinforcement learning with stochastic reward machines.
+\newblock In \emph{AAAI Conference on Artificial Intelligence}, 2022.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:250297195}.
+
+\bibitem[Su et~al.(2024)Su, Ahmed, Lu, Pan, Bo, and Liu]{su2024roformer}
+J.~Su, M.~Ahmed, Y.~Lu, S.~Pan, W.~Bo, and Y.~Liu.
+\newblock Roformer: Enhanced transformer with rotary position embedding.
+\newblock \emph{Neurocomputing}, 568:\penalty0 127063, 2024.
+
+\bibitem[Pham et~al.(2021)Pham, Bui, Mai, and Nguyen]{pham2020out}
+T.~Pham, T.~Bui, L.~Mai, and A.~Nguyen.
+\newblock Out of order: How important is the sequential order of words in a sentence in natural language understanding tasks?
+\newblock In \emph{Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021}, pages 1145--1160, 2021.
+
+\bibitem[Hafner(2021)]{Hafner2021BenchmarkingTS}
+D.~Hafner.
+\newblock Benchmarking the spectrum of agent capabilities.
+\newblock In \emph{Deep RL Workshop NeurIPS 2021}, 2021.
+
+\bibitem[Bellemare et~al.(2013)Bellemare, Naddaf, Veness, and Bowling]{Bellemare2012TheAL}
+M.~G. Bellemare, Y.~Naddaf, J.~Veness, and M.~Bowling.
+\newblock The arcade learning environment: An evaluation platform for general agents.
+\newblock \emph{Journal of Artificial Intelligence Research}, 47:\penalty0 253--279, 2013.
+
+\bibitem[Chevalier-Boisvert et~al.(2018)Chevalier-Boisvert, Bahdanau, Lahlou, Willems, Saharia, Nguyen, and Bengio]{chevalier2018babyai}
+M.~Chevalier-Boisvert, D.~Bahdanau, S.~Lahlou, L.~Willems, C.~Saharia, T.~H. Nguyen, and Y.~Bengio.
+\newblock Babyai: A platform to study the sample efficiency of grounded language learning.
+\newblock In \emph{International Conference on Learning Representations}, 2018.
+
+\bibitem[Radford et~al.(2021)Radford, Kim, Hallacy, Ramesh, Goh, Agarwal, Sastry, Askell, Mishkin, Clark, Krueger, and Sutskever]{Radford2021LearningTV}
+A.~Radford, J.~W. Kim, C.~Hallacy, A.~Ramesh, G.~Goh, S.~Agarwal, G.~Sastry, A.~Askell, P.~Mishkin, J.~Clark, G.~Krueger, and I.~Sutskever.
+\newblock Learning transferable visual models from natural language supervision.
+\newblock In \emph{International Conference on Machine Learning}, 2021.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:231591445}.
+
+\bibitem[Ma et~al.(2022)Ma, Xu, Sun, Yan, Zhang, and Ji]{Ma2022XCLIPEM}
+Y.~Ma, G.~Xu, X.~Sun, M.~Yan, J.~Zhang, and R.~Ji.
+\newblock X-clip: End-to-end multi-grained contrastive learning for video-text retrieval.
+\newblock \emph{Proceedings of the 30th ACM International Conference on Multimedia}, 2022.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:250607505}.
+
+\bibitem[Zhang et~al.(2021)Zhang, Xu, Wang, Wu, Keutzer, Gonzalez, and Tian]{Zhang2021NovelDAS}
+T.~Zhang, H.~Xu, X.~Wang, Y.~Wu, K.~Keutzer, J.~E. Gonzalez, and Y.~Tian.
+\newblock Noveld: A simple yet effective exploration criterion.
+\newblock In \emph{Neural Information Processing Systems}, 2021.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:245877021}.
+
+\bibitem[Hossain et~al.(2022)]{hossain2022analysis}
+M.~M. Hossain et~al.
+\newblock An analysis of negation in natural language understanding corpora.
+\newblock \emph{arXiv preprint arXiv:2203.08929}, 2022.
+
+\bibitem[Truong et~al.(2023)Truong, Baldwin, Verspoor, and Cohn]{truong2023language}
+T.~H. Truong, T.~Baldwin, K.~Verspoor, and T.~Cohn.
+\newblock Language models are not naysayers: an analysis of language models on negation benchmarks.
+\newblock \emph{arXiv preprint arXiv:2306.08189}, 2023.
+
+\bibitem[Sadinle et~al.(2019)]{sadinle2019least}
+M.~Sadinle et~al.
+\newblock Least ambiguous set-valued classifiers with bounded error levels.
+\newblock \emph{Journal of the American Statistical Association}, 114\penalty0 (525):\penalty0 223--234, 2019.
+
+\bibitem[Li et~al.(2023)Li, Zhao, Lee, Weber, and Wermter]{li2023internally}
+M.~Li, X.~Zhao, J.~H. Lee, C.~Weber, and S.~Wermter.
+\newblock Internally rewarded reinforcement learning.
+\newblock In \emph{International Conference on Machine Learning}, pages 20556--20574. PMLR, 2023.
+
+\bibitem[Agarwal et~al.(2021)Agarwal, Kakade, Lee, and Mahajan]{agarwal2021theory}
+A.~Agarwal, S.~M. Kakade, J.~D. Lee, and G.~Mahajan.
+\newblock On the theory of policy gradient methods: Optimality, approximation, and distribution shift.
+\newblock \emph{J. Mach. Learn. Res.}, 22\penalty0 (98):\penalty0 1--76, 2021.
+
+\bibitem[Hornik et~al.(1989)]{hornik1989multilayer}
+K.~Hornik et~al.
+\newblock Multilayer feedforward networks are universal approximators.
+\newblock \emph{Neural networks}, 2\penalty0 (5):\penalty0 359--366, 1989.
+
+\bibitem[Moon et~al.(2023)Moon, Yeom, Park, and Song]{moon2023ad}
+S.~Moon, J.~Yeom, B.~Park, and H.~O. Song.
+\newblock Discovering hierarchical achievements in reinforcement learning via contrastive learning.
+\newblock In \emph{Neural Information Processing Systems}, 2023.
+
+\end{thebibliography}

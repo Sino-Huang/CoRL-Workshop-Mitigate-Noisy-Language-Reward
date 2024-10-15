@@ -1,0 +1,157 @@
+\relax 
+\bibstyle{corlabbrvnat}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{Kaplan2017BeatingAW,Goyal2019UsingNL,Goyal2020PixL2RGR,du2023guiding}
+\citation{Goyal2019UsingNL}
+\citation{du2023guiding}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\newlabel{sec:introduction}{{1}{1}{Introduction}{section.1}{}}
+\citation{Wang2018ReinforcedCM,Shridhar2021CLIPortWA,Mahmoudieh2022ZeroShotRS}
+\citation{openai_faulty_rewards2016}
+\citation{du2023guiding,Wang2023DescribeEP}
+\citation{Ghosal2022TheEO}
+\citation{fufurl2024}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Schematic diagram of false positives in a VLM embedding space. The unintended agent's trajectory (dashed line) may exhibit high cosine similarity to the instruction (solid line) in the embedding space, as indicated by the proximity of their endpoints in the embedding space. Despite this apparent similarity, the unintended trajectories fundamentally fail to fulfill the intended instruction. Therefore, the rewards guides the agent towards incorrect behaviors. The figure shows three distinct cases of false positives. Refer to Section~\ref {sec:approximation_error} for more details.}}{2}{figure.1}\protected@file@percent }
+\newlabel{fig:false_positive_issue}{{1}{2}{Schematic diagram of false positives in a VLM embedding space. The unintended agent's trajectory (dashed line) may exhibit high cosine similarity to the instruction (solid line) in the embedding space, as indicated by the proximity of their endpoints in the embedding space. Despite this apparent similarity, the unintended trajectories fundamentally fail to fulfill the intended instruction. Therefore, the rewards guides the agent towards incorrect behaviors. The figure shows three distinct cases of false positives. Refer to Section~\ref {sec:approximation_error} for more details}{figure.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Formal Problem Statement}{2}{section.3}\protected@file@percent }
+\newlabel{sec:background}{{3}{2}{Formal Problem Statement}{section.3}{}}
+\citation{Abel2021OnTE}
+\citation{Icarte2018UsingRM,Corazza2022ReinforcementLW}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Illustration of reward signals from a vision-language reward model}}{3}{figure.2}\protected@file@percent }
+\newlabel{fig:illustration_of_vlm_reward}{{2}{3}{Illustration of reward signals from a vision-language reward model}{figure.2}{}}
+\newlabel{theo:convergence}{{3.1}{3}{Convergence rate reduction}{theorem.3.1}{}}
+\citation{su2024roformer}
+\citation{pham2020out}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Approximation Error of Cosine Similarity}{4}{section.4}\protected@file@percent }
+\newlabel{sec:approximation_error}{{4}{4}{Approximation Error of Cosine Similarity}{section.4}{}}
+\citation{Hafner2021BenchmarkingTS}
+\citation{Bellemare2012TheAL}
+\citation{chevalier2018babyai}
+\citation{Goyal2020PixL2RGR}
+\citation{du2023guiding}
+\citation{Radford2021LearningTV}
+\citation{Ma2022XCLIPEM}
+\citation{Zhang2021NovelDAS}
+\citation{Hafner2021BenchmarkingTS}
+\citation{hossain2022analysis,truong2023language}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Experiments on Reward Noise Impact}{5}{subsection.4.1}\protected@file@percent }
+\newlabel{sec:experiments_on_existence}{{4.1}{5}{Experiments on Reward Noise Impact}{subsection.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Learned VLM models differentiate between matched and not-matched pairs, but struggle with O.O.D. cases. They incorrectly assign high scores to manipulated pairs, which should be low as the trajectories in the manipulated pairs fail the instruction}}{5}{figure.caption.2}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:cosine_sim_score_offline_eval_illu}{{3}{5}{Learned VLM models differentiate between matched and not-matched pairs, but struggle with O.O.D. cases. They incorrectly assign high scores to manipulated pairs, which should be low as the trajectories in the manipulated pairs fail the instruction}{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The false positive vs. false negative oracle model. The false positive model get a more severe drop in the final training score.}}{5}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:FP_FN_comparison}{{4}{5}{The false positive vs. false negative oracle model. The false positive model get a more severe drop in the final training score}{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The heatmap shows the cumulative rewards received at various locations, with larger circle sizes indicating higher rewards. The later figures shows the offsets between the state where rewards are given and the actual goal-reaching state. Agents are getting both issues of false positives and false negatives during training}}{6}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:show_prevalence_of_noisy_rewards}{{5}{6}{The heatmap shows the cumulative rewards received at various locations, with larger circle sizes indicating higher rewards. The later figures shows the offsets between the state where rewards are given and the actual goal-reaching state. Agents are getting both issues of false positives and false negatives during training}{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The ratio of false positive rewards is significantly reduced after applying \textsc  {BiMI}}}{6}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:reward_distribution_heatmap_with_bimi}{{6}{6}{The ratio of false positive rewards is significantly reduced after applying \textsc {BiMI}}{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Score metric across environments (equivalent to total rewards, higher is better). $\star $ denotes baseline intrinsic reward model. VLM reward models without noise handling underperformed. All models are based on PPO.}}{6}{figure.7}\protected@file@percent }
+\newlabel{tab:stage_1_rl_results}{{7}{6}{Score metric across environments (equivalent to total rewards, higher is better). $\star $ denotes baseline intrinsic reward model. VLM reward models without noise handling underperformed. All models are based on PPO}{figure.7}{}}
+\citation{du2023guiding}
+\citation{sadinle2019least}
+\citation{li2023internally}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Solution to the Reward Noise Issue}{7}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Binary Signal and Conformal Prediction Thresholding}{7}{subsection.5.1}\protected@file@percent }
+\newlabel{sec:preferring-binary-signal}{{5.1}{7}{Binary Signal and Conformal Prediction Thresholding}{subsection.5.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Mutual Information Maximization}{7}{subsection.5.2}\protected@file@percent }
+\citation{fufurl2024}
+\bibdata{example}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Experiments}{8}{section.6}\protected@file@percent }
+\newlabel{sec:experiments}{{6}{8}{Experiments}{section.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Model score across various environments. $\star $ is the baseline agents with a learned VLM-based reward model to compare with. \textsc  {BiMI} significantly improves performance in \emph  {Montezuma} and \emph  {Minigrid}, while showing mixed results in \emph  {Crafter} due to task-specific characteristics}}{8}{figure.caption.4}\protected@file@percent }
+\newlabel{tab:stage_2_rl_performance}{{1}{8}{Model score across various environments. $\star $ is the baseline agents with a learned VLM-based reward model to compare with. \textsc {BiMI} significantly improves performance in \emph {Montezuma} and \emph {Minigrid}, while showing mixed results in \emph {Crafter} due to task-specific characteristics}{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces \textsc  {BiMI} reward showed faster and higher success rates on difficult tasks in Montezuma}}{8}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:montezuma_difficult_task_success_rate}{{8}{8}{\textsc {BiMI} reward showed faster and higher success rates on difficult tasks in Montezuma}{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Overall Performance and Ablation Study}{8}{subsection.6.1}\protected@file@percent }
+\newlabel{subsec:ablation}{{6.1}{8}{Overall Performance and Ablation Study}{subsection.6.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{8}{section.7}\protected@file@percent }
+\bibcite{Kaplan2017BeatingAW}{{1}{2017}{{Kaplan et~al.}}{{}}}
+\bibcite{Goyal2019UsingNL}{{2}{2019}{{Goyal et~al.}}{{}}}
+\bibcite{Goyal2020PixL2RGR}{{3}{2020}{{Goyal et~al.}}{{}}}
+\bibcite{du2023guiding}{{4}{2023}{{Du et~al.}}{{Du, Watkins, Wang, Colas, Darrell, Abbeel, Gupta, and Andreas}}}
+\bibcite{Wang2018ReinforcedCM}{{5}{2018}{{Wang et~al.}}{{Wang, Huang, Celikyilmaz, Gao, Shen, fang Wang, Wang, and Zhang}}}
+\bibcite{Shridhar2021CLIPortWA}{{6}{2022}{{Shridhar et~al.}}{{}}}
+\bibcite{Mahmoudieh2022ZeroShotRS}{{7}{2022}{{Mahmoudieh et~al.}}{{}}}
+\bibcite{openai_faulty_rewards2016}{{8}{2016}{{Clark}}{{}}}
+\bibcite{Wang2023DescribeEP}{{9}{2023}{{Wang et~al.}}{{Wang, Cai, Chen, Liu, Ma, and Liang}}}
+\bibcite{Ghosal2022TheEO}{{10}{2022}{{Ghosal et~al.}}{{Ghosal, Zurek, Brown, and Dragan}}}
+\bibcite{fufurl2024}{{11}{2024}{{Fu et~al.}}{{Fu, Zhang, Wu, Xu, and Boulet}}}
+\bibcite{Abel2021OnTE}{{12}{2021}{{Abel et~al.}}{{Abel, Dabney, Harutyunyan, Ho, Littman, Precup, and Singh}}}
+\bibcite{Icarte2018UsingRM}{{13}{2018}{{Icarte et~al.}}{{Icarte, Klassen, Valenzano, and McIlraith}}}
+\bibcite{Corazza2022ReinforcementLW}{{14}{2022}{{Corazza et~al.}}{{}}}
+\bibcite{su2024roformer}{{15}{2024}{{Su et~al.}}{{Su, Ahmed, Lu, Pan, Bo, and Liu}}}
+\bibcite{pham2020out}{{16}{2021}{{Pham et~al.}}{{Pham, Bui, Mai, and Nguyen}}}
+\bibcite{Hafner2021BenchmarkingTS}{{17}{2021}{{Hafner}}{{}}}
+\bibcite{Bellemare2012TheAL}{{18}{2013}{{Bellemare et~al.}}{{Bellemare, Naddaf, Veness, and Bowling}}}
+\bibcite{chevalier2018babyai}{{19}{2018}{{Chevalier-Boisvert et~al.}}{{Chevalier-Boisvert, Bahdanau, Lahlou, Willems, Saharia, Nguyen, and Bengio}}}
+\bibcite{Radford2021LearningTV}{{20}{2021}{{Radford et~al.}}{{Radford, Kim, Hallacy, Ramesh, Goh, Agarwal, Sastry, Askell, Mishkin, Clark, Krueger, and Sutskever}}}
+\bibcite{Ma2022XCLIPEM}{{21}{2022}{{Ma et~al.}}{{Ma, Xu, Sun, Yan, Zhang, and Ji}}}
+\bibcite{Zhang2021NovelDAS}{{22}{2021}{{Zhang et~al.}}{{Zhang, Xu, Wang, Wu, Keutzer, Gonzalez, and Tian}}}
+\bibcite{hossain2022analysis}{{23}{2022}{{Hossain et~al.}}{{}}}
+\bibcite{truong2023language}{{24}{2023}{{Truong et~al.}}{{Truong, Baldwin, Verspoor, and Cohn}}}
+\bibcite{sadinle2019least}{{25}{2019}{{Sadinle et~al.}}{{}}}
+\bibcite{li2023internally}{{26}{2023}{{Li et~al.}}{{Li, Zhao, Lee, Weber, and Wermter}}}
+\bibcite{agarwal2021theory}{{27}{2021}{{Agarwal et~al.}}{{Agarwal, Kakade, Lee, and Mahajan}}}
+\bibcite{hornik1989multilayer}{{28}{1989}{{Hornik et~al.}}{{}}}
+\bibcite{moon2023ad}{{29}{2023}{{Moon et~al.}}{{Moon, Yeom, Park, and Song}}}
+\citation{Abel2021OnTE}
+\citation{Abel2021OnTE}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Technical Appendix}{11}{appendix.A}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}Sparse Reward Function and Range-SOAP}{11}{subsection.A.1}\protected@file@percent }
+\newlabel{app_subsec:property_of_sparse_reward}{{A.1}{11}{Sparse Reward Function and Range-SOAP}{subsection.A.1}{}}
+\newlabel{theo:sparse_reward_range_soap}{{A.1}{11}{\citet {Abel2021OnTE}}{theorem.A.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2}Proof of the Reduction of Convergence Rate}{12}{subsection.A.2}\protected@file@percent }
+\newlabel{sec:proofofreductionofconvergence}{{A.2}{12}{Proof of the Reduction of Convergence Rate}{subsection.A.2}{}}
+\citation{agarwal2021theory}
+\citation{hornik1989multilayer}
+\citation{chevalier2018babyai,Bellemare2012TheAL,Hafner2021BenchmarkingTS}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.3}Implementation Details of the Experiments}{13}{subsection.A.3}\protected@file@percent }
+\newlabel{sec:implementation_details_first_stage}{{A.3}{13}{Implementation Details of the Experiments}{subsection.A.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.3.1}Environment Details}{13}{subsubsection.A.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Illustration of the Montezuma's Revenge task. The agent must navigate through a series of rooms to collect treasures and keys.}}{14}{figure.caption.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Illustration of the Minigrid `Go to seq' task. The agent must navigate through a sequence of rooms and touch target objects in the correct order.}}{14}{figure.caption.7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Illustration of the Crafter task. The agent must survive as long as possible and explore for new crafting recipes.}}{14}{figure.caption.8}\protected@file@percent }
+\citation{Radford2021LearningTV}
+\citation{Ma2022XCLIPEM}
+\citation{moon2023ad}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.3.2}Instruction-Guide Procedure Details}{15}{subsubsection.A.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.3.3}Finetuning VLM-based Reward Models}{15}{subsubsection.A.3.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Example of training data for the Montezuma environment.}}{15}{figure.caption.9}\protected@file@percent }
+\citation{moon2023ad}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Performance of fine-tuned VLM reward model on the testing dataset using the 90th percentile empirical quantile as threshold}}{16}{table.caption.10}\protected@file@percent }
+\newlabel{tab:vlm_performance}{{2}{16}{Performance of fine-tuned VLM reward model on the testing dataset using the 90th percentile empirical quantile as threshold}{table.caption.10}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.3.4}Hyperparameters for Instruction-Guided RL Agents}{16}{subsubsection.A.3.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Model Parameters}}{16}{figure.caption.11}\protected@file@percent }
+\newlabel{tab:ppo_model_parameter}{{3}{16}{Model Parameters}{figure.caption.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Crafter and Minigrid RL Parameters}}{17}{figure.caption.12}\protected@file@percent }
+\newlabel{tab:crafter_minigrid_rl_parameter}{{4}{17}{Crafter and Minigrid RL Parameters}{figure.caption.12}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Montezuma RL Training Parameters}}{17}{table.caption.13}\protected@file@percent }
+\newlabel{tab:monte_rl_params}{{5}{17}{Montezuma RL Training Parameters}{table.caption.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.4}Additional Details of the Experiments on the Impact of Noisy Rewards}{17}{subsection.A.4}\protected@file@percent }
+\newlabel{sec:experiments_stage_1_details}{{A.4}{17}{Additional Details of the Experiments on the Impact of Noisy Rewards}{subsection.A.4}{}}
+\citation{sadinle2019least}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.4.1}Details of Manipulated Trajectory-Instruction Pairs to Evaluate Robustness }{18}{subsubsection.A.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.5}Pseudo-code for Empirical Quantile Calculation for Binary Signal Threshold}{18}{subsection.A.5}\protected@file@percent }
+\newlabel{sec:pseudo-code-for-threshold}{{A.5}{18}{Pseudo-code for Empirical Quantile Calculation for Binary Signal Threshold}{subsection.A.5}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Calculate Empirical Quantile ($\hat  {q}$)}}{18}{algorithm.1}\protected@file@percent }
+\newlabel{app:cpq_algo}{{1}{18}{Calculate Empirical Quantile ($\hat {q}$)}{algorithm.1}{}}
+\citation{Hafner2021BenchmarkingTS}
+\citation{Zhang2021NovelDAS}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.6}Implementation Details of the Experiments of \textsc  {BiMI} Reward Function}{19}{subsection.A.6}\protected@file@percent }
+\newlabel{sec:experiments_stage_2_details}{{A.6}{19}{Implementation Details of the Experiments of \textsc {BiMI} Reward Function}{subsection.A.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.7}Detailed Experiment Results of \textsc  {BiMI} Reward Function}{19}{subsection.A.7}\protected@file@percent }
+\newlabel{app_subsec:detailed_bimi_exp_result}{{A.7}{19}{Detailed Experiment Results of \textsc {BiMI} Reward Function}{subsection.A.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.7.1}Montezuma's Revenge}{19}{subsubsection.A.7.1}\protected@file@percent }
+\newlabel{subsec:main_results_montezuma}{{A.7.1}{19}{Montezuma's Revenge}{subsubsection.A.7.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.7.2}Minigrid}{19}{subsubsection.A.7.2}\protected@file@percent }
+\newlabel{subsec:main_results_minigrid}{{A.7.2}{19}{Minigrid}{subsubsection.A.7.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {A.7.3}Crafter}{20}{subsubsection.A.7.3}\protected@file@percent }
+\newlabel{subsec:main_results_crafter}{{A.7.3}{20}{Crafter}{subsubsection.A.7.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Besides the improvements of the score performance of agents across different environments with the \textsc  {BiMI} reward function, it also collaborates well with intrinsic rewards. Combining both can lead to significant performance improvements}}{20}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:main_result_lineplot_score}{{13}{20}{Besides the improvements of the score performance of agents across different environments with the \textsc {BiMI} reward function, it also collaborates well with intrinsic rewards. Combining both can lead to significant performance improvements}{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Ablation on the components of \textsc  {BiMI} reward function. The binary reward (Bi) alone led to a 36.5\% improvement compared to original models. Excluding Crafter, Mutual Information (MI) provided a 23\% further improvement over Bi alone}}{20}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:ablation_bi_bimi_lineplot_score}{{14}{20}{Ablation on the components of \textsc {BiMI} reward function. The binary reward (Bi) alone led to a 36.5\% improvement compared to original models. Excluding Crafter, Mutual Information (MI) provided a 23\% further improvement over Bi alone}{figure.caption.14}{}}
+\gdef \@abspage@last{20}
