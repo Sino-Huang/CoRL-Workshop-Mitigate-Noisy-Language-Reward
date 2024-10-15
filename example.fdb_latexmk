@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex example"] 1728955133.113 "example.aux" "example.bbl" "example" 1728955295.74224 0
+["bibtex example"] 1728955133.113 "example.aux" "example.bbl" "example" 1728956169.47543 0
   "./corlabbrvnat.bst" 1711534434 26694 1972207a84216683d105ea25982a4f25 ""
   "./example.bib" 1728594862.65515 12717 47b472a47d9dd034d28118a9ac4850f0 ""
-  "example.aux" 1728955295.52811 19425 3ba88651cac45cb973a56493d1c93097 "pdflatex"
+  "example.aux" 1728956169.26052 19425 3ba88651cac45cb973a56493d1c93097 "pdflatex"
   (generated)
   "example.bbl"
   "example.blg"
   (rewritten before read)
-["pdflatex"] 1728955287.88536 "/home/sukaih/Documents/Study_Documents/StudyPackage/CoRL-Workshop-Mitigate-Noisy-Language-Reward/example.tex" "example.pdf" "example" 1728955295.74239 0
-  "/home/sukaih/Documents/Study_Documents/StudyPackage/CoRL-Workshop-Mitigate-Noisy-Language-Reward/example.tex" 1728955286.9348 79392 7fea8fd53499bcc6b4ad98d3370f2f80 ""
+["pdflatex"] 1728956161.59594 "/home/sukaih/Documents/Study_Documents/StudyPackage/CoRL-Workshop-Mitigate-Noisy-Language-Reward/example.tex" "example.pdf" "example" 1728956169.47565 0
+  "/home/sukaih/Documents/Study_Documents/StudyPackage/CoRL-Workshop-Mitigate-Noisy-Language-Reward/example.tex" 1728956161.48052 79372 5e6d9e03eee8995aa0d00d25f5bed0a8 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1716849630 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1716849630 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm" 1716849630 2520 53e01eef820ca829e42c1333c3fd02b9 ""
@@ -224,10 +224,10 @@
   "appendix_figures/montezuma_task_illu.pdf" 1720963556.57305 673653 3ac8c8bccb527b899008e50a1b4abc75 ""
   "appendix_figures/training_data_example.png" 1720965161.30628 848614 0cef0dba24d7cf12e2110694497dcc38 ""
   "corl_2024.sty" 1728598357.36271 14769 4fb154f425af246b90cc3d50dbf9918b ""
-  "example.aux" 1728955295.52811 19425 3ba88651cac45cb973a56493d1c93097 "pdflatex"
+  "example.aux" 1728956169.26052 19425 3ba88651cac45cb973a56493d1c93097 "pdflatex"
   "example.bbl" 1728955133.16522 9473 67be4d6aa693f32659828706063bf75d "bibtex example"
-  "example.out" 1728955295.52811 6502 e244e1cfe78d5a7a1067dec3e75c547a "pdflatex"
-  "example.tex" 1728955286.9348 79392 7fea8fd53499bcc6b4ad98d3370f2f80 ""
+  "example.out" 1728956169.26052 6502 e244e1cfe78d5a7a1067dec3e75c547a "pdflatex"
+  "example.tex" 1728956161.48052 79372 5e6d9e03eee8995aa0d00d25f5bed0a8 ""
   "figures/Reward_Distribution_Heatmap_with_BIMI.png" 1727170681.67906 589610 0525702584f1ea90610b83d470072a8b ""
   "figures/ablation_bi_bimi_lineplot_score_clear.png" 1727170671.63245 3686178 94eb3fcf87cae0d8ba34bbd8a1cfbe11 ""
   "figures/cosine_sim_score_offline_eval_illu.png" 1727170672.29911 738088 63d5b16e80597bd00834e682155f337c ""
